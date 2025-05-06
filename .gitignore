@@ -1,18 +1,25 @@
-# Ignorar el dataset por privacidad
-data/
-*.csv
-*.json
+# --- Dataset (no subir por privacidad) ---
+data/*
+!data/README.md
 
-# Archivos temporales
-__pycache__/
+# --- Archivos de notebooks ---
 .ipynb_checkpoints/
 
-# Salidas y modelos
+# --- Archivos temporales ---
+__pycache__/
+*.py[cod]
+
+# --- Salidas y modelos entrenados ---
 *.pt
 *.bin
 *.pkl
 *.joblib
 
-# Entornos virtuales
+# --- Archivos de configuración local ---
+.env
+.venv
 .env/
-.venv/
+
+# --- Archivos de sistema ---
+.DS_Store
+Thumbs.db

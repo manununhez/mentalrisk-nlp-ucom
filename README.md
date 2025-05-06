@@ -1,24 +1,29 @@
-# Detección de Riesgo Emocional en Telegram usando NLP
+# MentalRiskES NLP - Análisis de riesgo emocional
 
 Este repositorio contiene el trabajo realizado como parte del proyecto académico de la Maestría en Ciencia de Datos, cuyo objetivo fue comparar diferentes enfoques de procesamiento de lenguaje natural (PLN) para identificar señales de ansiedad en textos en español.
 
 ## 📁 Estructura
 
-- `notebooks/`: contiene los tres enfoques implementados:
-  - `01_svm_tf-idf.ipynb`
-  - `02_fasttext.ipynb`
-  - `03_roberta_fine_tuning.ipynb`
-
-- `paper/`: versión PDF del artículo técnico desarrollado.
-
-- `requirements.txt`: dependencias necesarias para reproducir los notebooks.
-
-- `data/`: instrucciones para acceder al dataset MentalRiskES 2023 (no incluido por restricciones de licencia).
+```
+mentalrisk-nlp-ucom/
+├── data/                  # Información sobre el dataset (no se incluye el dataset real)
+├── notebooks/             # Notebooks por técnica
+│   ├── 01_svm_tf-idf.ipynb
+│   ├── 02_fasttext.ipynb
+│   └── 03_roberta_fine_tuning.ipynb
+├── utils/                 # Funciones reutilizables
+│   ├── data_loader.py
+│   └── text_cleaning.py
+├── paper/
+│   ├── ucom_pln_mental_health_risk_2023.pdf   # Artículo del proyecto
+├── requirements.txt
+└── README.md
+```
 
 ## 📊 Modelos Evaluados
 
 1. **SVM + TF-IDF**
-2. **FastText + TF-IDF**
+2. **FastText**
 3. **RoBERTa-base-bne** (fine-tuning con PyTorch)
 
 ## 🧪 Dataset
@@ -40,6 +45,10 @@ Podés abrir los notebooks directamente desde Google Colab haciendo clic en esto
 ## 📄 Artículo
 
 El documento completo con la metodología, resultados y análisis está disponible en `paper/ucom_pln_mental_health_risk_2023.pdf`.
+
+## Requisitos
+
+Ver `requirements.txt`.
 
 ---
 
