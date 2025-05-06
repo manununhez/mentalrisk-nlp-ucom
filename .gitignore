@@ -1,0 +1,18 @@
+# Ignorar el dataset por privacidad
+data/
+*.csv
+*.json
+
+# Archivos temporales
+__pycache__/
+.ipynb_checkpoints/
+
+# Salidas y modelos
+*.pt
+*.bin
+*.pkl
+*.joblib
+
+# Entornos virtuales
+.env/
+.venv/
