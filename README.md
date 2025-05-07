@@ -14,8 +14,9 @@ mentalrisk-nlp-ucom/
 ├── utils/                 # Funciones reutilizables
 │   ├── data_loader.py
 │   └── text_cleaning.py
-├── paper/
+├── docs/
 │   ├── ucom_pln_mental_health_risk_2023.pdf   # Artículo del proyecto
+│   ├── ucom_pln_mental_health_risk_2023_presentacion
 ├── requirements.txt
 └── README.md
 ```
