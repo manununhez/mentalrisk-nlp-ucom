@@ -45,7 +45,7 @@ Podés abrir los notebooks directamente desde Google Colab haciendo clic en esto
 
 ## 📄 Artículo
 
-El documento completo con la metodología, resultados y análisis está disponible en `paper/ucom_pln_mental_health_risk_2023.pdf`.
+El documento completo con la metodología, resultados y análisis está disponible en `docs/ucom_pln_mental_health_risk_2023.pdf`.
 
 ## Requisitos
 
